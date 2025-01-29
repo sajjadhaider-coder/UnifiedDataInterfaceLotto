@@ -9,4 +9,5 @@ import java.util.Optional;
 
 public interface SystemLogsService {
     SystemLogsResponse saveLogRecord(SystemLogsRequest systemLogs);
+    List<SystemLogsResponse> getLogs();
 }
